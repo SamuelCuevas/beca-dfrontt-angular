@@ -36,8 +36,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* place-content: flex-start flex-end; */
-    /* align-items: flex-start; */
 }
 
 .form2 .item1 {
@@ -47,17 +45,13 @@
 .form2 .item4 {
     background: url(../../../assets/img/btn-upload.svg) no-repeat center right 10%;
 }
+
 .form2 input {
     height: 50px;
     margin-top: 30px;
     padding:10px;
     border: 1px solid gray;
 }
-
-/* .form2 .inputs {
-    display: flex;
-    flex-direction: column;
-} */
 
 .form2 .buttons {
     margin-left: auto;
