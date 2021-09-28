@@ -1,0 +1,29 @@
+.category {
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.category ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px solid #BFBFBF;
+    height: 100%;
+}
+
+ul li {
+    list-style: none;
+    margin: auto;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 50px 0;
+    width: 100%;
+    color: gray;
+    background: url('../../../assets/img/file.svg') no-repeat center top;
+}

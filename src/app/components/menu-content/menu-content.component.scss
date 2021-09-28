@@ -1,0 +1,15 @@
+.container-menu {
+    margin: 20px;
+    display: flex;
+    height: 100%;
+}
+
+.container-menu p {
+    margin-left: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: #1D0088;
+    width: 100%;
+    /* SOLUCIONAR ESTO */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

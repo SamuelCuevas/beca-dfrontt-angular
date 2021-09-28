@@ -1,0 +1,29 @@
+.menu {
+    margin-top: 30px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    background: url('../../../assets/img/arrow-up.svg') no-repeat center right;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+
+.submenu a {
+    border-bottom-color: aqua;
+    background: url('../../../assets/img/report-icon.svg') no-repeat center left 1%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.submenu {
+    width: 90%;
+    margin-left: 10%;
+}

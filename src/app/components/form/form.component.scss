@@ -1,0 +1,81 @@
+.forms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: space-between;
+}
+
+.forms .form1 {
+    padding: 5px;
+}
+
+.form1 select {
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #707070;
+    border-radius: 7px;
+}
+
+.form1 input {
+    color: #FFFF;
+    width: 30%;
+    height: 40px;
+    margin-left: 20px;
+    background: #E9124C;
+    border: none;
+}
+
+.forms .form2 {
+    border: 1px solid #BFBFBF;
+    margin-top: 20px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* place-content: flex-start flex-end; */
+    /* align-items: flex-start; */
+}
+
+.form2 .item1 {
+    background: url(../../../assets/img/calendar.svg) no-repeat center right 10%;
+}
+
+.form2 .item4 {
+    background: url(../../../assets/img/btn-upload.svg) no-repeat center right 10%;
+}
+.form2 input {
+    height: 50px;
+    margin-top: 30px;
+    padding:10px;
+    border: 1px solid gray;
+}
+
+/* .form2 .inputs {
+    display: flex;
+    flex-direction: column;
+} */
+
+.form2 .buttons {
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.form2 .item3 {
+    align-self: center;
+}
+
+.form2 .item5 {
+    color: #FFFF;
+    background: #E9124C;
+    border: none;
+}
+
+.form2 .item6 {
+    background: #FFFFFF;
+    border: 2px solid #0AAFA9;
+    color: #0AAFA9;
+}
