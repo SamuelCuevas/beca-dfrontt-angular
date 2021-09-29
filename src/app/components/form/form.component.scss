@@ -47,10 +47,14 @@
 }
 
 .form2 input {
-    height: 50px;
     margin-top: 30px;
     padding:10px;
     border: 1px solid gray;
+    line-height: 28px;
+}
+
+.input-box input ~ input {
+    margin-left: 20px;
 }
 
 .form2 .buttons {

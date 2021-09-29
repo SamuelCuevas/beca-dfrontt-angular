@@ -1,16 +1,15 @@
-.top-bar {
-    height: 48px;
+div {
     display: flex;
     background: #0C013B 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000059;
     justify-content: space-between;
     align-items: center;
-}
-
-.top-bar p {
-    font-size: 12px;
-    text-align: center;
-    width: 50px;
-    color: #FFFFFF;
-    background: url('../../../assets/img/settings.svg') no-repeat center left -2%;
+    padding: 9px 15px 8px 15px;
+    p {
+        font-size: 12px;
+        color: #FFFFFF;
+        background: url('/assets/img/settings.svg') no-repeat center left;
+        padding-left: 20px;
+        line-height: 16px;
+    }
 }

@@ -1,12 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.body {
+div {
     background: #1B0088 0% 0% no-repeat padding-box;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,16 +7,16 @@
     min-height: 100vh;
 }
 
-.body h1 {
+h1 {
     font-size: 61px;
     color: #FFFFFF;
 }
 
-.body img {
+img {
     margin-top: 20px;
 }
 
-.body a {
+a {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 5px;
     color: #1B0088;

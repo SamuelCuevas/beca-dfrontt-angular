@@ -1,5 +1,5 @@
-.contenido {
+.content-box {
     display: flex;
     flex-direction: column;
-    width: 100vh;
+    width: calc(100vw - 350px);
 }
