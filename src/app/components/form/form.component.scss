@@ -1,79 +1,78 @@
-.forms {
-    width: 100%;
+.forms-box {
+    width: calc(100vw - 660px);
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     justify-content: space-between;
-}
-
-.forms .form1 {
-    padding: 5px;
-}
-
-.form1 select {
-    width: 160px;
-    height: 40px;
-    margin-top: 30px;
-    border: 1px solid #707070;
-    border-radius: 7px;
-}
-
-.form1 input {
-    color: #FFFF;
-    width: 30%;
-    height: 40px;
-    margin-left: 20px;
-    background: #E9124C;
-    border: none;
-}
-
-.forms .form2 {
-    border: 1px solid #BFBFBF;
-    margin-top: 20px;
-    padding: 20px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.form2 .item1 {
-    background: url(../../../assets/img/calendar.svg) no-repeat center right 10%;
-}
-
-.form2 .item4 {
-    background: url(../../../assets/img/btn-upload.svg) no-repeat center right 10%;
-}
-
-.form2 input {
-    margin-top: 30px;
-    padding:10px;
-    border: 1px solid gray;
-    line-height: 28px;
-}
-
-.input-box input ~ input {
-    margin-left: 20px;
-}
-
-.form2 .buttons {
-    margin-left: auto;
-    justify-content: flex-end;
-}
-
-.form2 .item3 {
-    align-self: center;
-}
-
-.form2 .item5 {
-    color: #FFFF;
-    background: #E9124C;
-    border: none;
-}
-
-.form2 .item6 {
-    background: #FFFFFF;
-    border: 2px solid #0AAFA9;
-    color: #0AAFA9;
+    input {
+        border-radius: 7px;
+    }
+    .form1 {
+        padding: 5px;
+        select {
+            width: 180px;
+            height: 45px;
+            margin-top: 30px;
+            border: 1px solid #707070;
+            border-radius: 7px;
+        }
+        input {
+            color: #FFFF;
+            width: 160px;
+            height: 40px;
+            margin-left: 20px;
+            background: #E9124C;
+            border: none;
+        }
+    }
+    .form2 {
+        border: 1px solid #BFBFBF;
+        margin-top: 20px;
+        padding: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        input {
+            margin-top: 30px;
+            padding:10px;
+            border: 1px solid gray;
+            line-height: 28px;
+        }
+        .inputs {
+            margin-left: 20px;
+            .input-box input ~ input {
+                margin-left: 50px;
+            }
+        }
+        .item1 {
+            background: url(/assets/img/calendar.svg) no-repeat center right 10%;
+        }
+        .item4 {
+            background: url(/assets/img/btn-upload.svg) no-repeat center right 10%;
+        }
+        .input-box input ~ input {
+            margin-left: 20px;
+        }
+        .buttons {
+            margin: auto 0 0 auto;
+            justify-content: flex-end;
+        }
+        .item3 {
+            align-self: center;
+        }
+        .item5 {
+            color: #FFFF;
+            background: #E9124C;
+            border: none;
+        }
+        .item6 {
+            background: #FFFFFF;
+            border: 2px solid #0AAFA9;
+            margin-left: 20px;
+            color: #0AAFA9;
+        }
+    }
 }
